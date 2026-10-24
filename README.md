@@ -19,7 +19,7 @@ Supported features:
 
 The minimum requirements to build this project are:
 
-1. Gradle 8.2 (you can use `./gradlew` or `.\gradlew.bat` which will download it for you).
+1. Gradle 8.14.6 (you can use `./gradlew` or `.\gradlew.bat` which will download it for you).
 2. JDK 1.8 (target is 1.7, so don't use much higher version).
 3. Running `./gradlew build` should run successfully.
 
