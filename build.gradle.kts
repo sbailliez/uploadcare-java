@@ -23,7 +23,6 @@ dependencies {
     implementation("com.fasterxml.jackson.core:jackson-databind:2.22.4")
     implementation("commons-codec:commons-codec:1.23.0")
     implementation("commons-io:commons-io:2.22.0")
-    implementation("com.sun.activation:javax.activation:1.2.0")
 
     testImplementation("junit:junit:4.13.2")
     testImplementation("org.mockito:mockito-core:4.11.0")

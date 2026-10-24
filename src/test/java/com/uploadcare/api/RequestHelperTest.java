@@ -41,4 +41,14 @@ public class RequestHelperTest {
         assertEquals("535e263808dd38599343f04aab3c9f34bb15573c", signature);
     }
 
+    @Test
+    public void test_getMimeType() {
+        assertEquals("image/png", RequestHelper.getMimeType("olympia.png"));
+        assertEquals("image/jpeg", RequestHelper.getMimeType("olympia.jpg"));
+        assertEquals("text/plain", RequestHelper.getMimeType("notes.txt"));
+        assertEquals("application/octet-stream", RequestHelper.getMimeType("file.unknownext"));
+        assertEquals("application/octet-stream", RequestHelper.getMimeType("noextension"));
+        assertEquals("application/octet-stream", RequestHelper.getMimeType(null));
+    }
+
 }
