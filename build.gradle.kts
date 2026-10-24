@@ -18,15 +18,15 @@ java {
 }
 
 dependencies {
-    implementation("org.apache.httpcomponents:httpclient:4.5.13")
-    implementation("org.apache.httpcomponents:httpmime:4.5.13")
-    implementation("com.fasterxml.jackson.core:jackson-databind:2.16.2")
-    implementation("commons-codec:commons-codec:1.10")
-    implementation("commons-io:commons-io:2.7")
+    implementation("org.apache.httpcomponents:httpclient:4.5.14")
+    implementation("org.apache.httpcomponents:httpmime:4.5.14")
+    implementation("com.fasterxml.jackson.core:jackson-databind:2.22.4")
+    implementation("commons-codec:commons-codec:1.23.0")
+    implementation("commons-io:commons-io:2.22.0")
     implementation("com.sun.activation:javax.activation:1.2.0")
 
-    testImplementation("junit:junit:4.13.1")
-    testImplementation("org.mockito:mockito-all:1.10.19")
+    testImplementation("junit:junit:4.13.2")
+    testImplementation("org.mockito:mockito-core:4.11.0")
 }
 
 // Setup global publishing repository settings.
