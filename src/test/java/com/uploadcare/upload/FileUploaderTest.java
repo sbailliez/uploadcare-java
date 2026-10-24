@@ -9,7 +9,7 @@ import com.uploadcare.data.UploadBaseData;
 import com.uploadcare.urls.Urls;
 import org.apache.commons.io.IOUtils;
 import org.apache.http.client.methods.HttpUriRequest;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import org.mockito.ArgumentMatcher;
 import org.mockito.InOrder;
 
