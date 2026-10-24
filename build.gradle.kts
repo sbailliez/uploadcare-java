@@ -30,7 +30,7 @@ val mockitoAgent = configurations.create("mockitoAgent")
 dependencies {
     implementation("org.apache.httpcomponents:httpclient:4.5.14")
     implementation("org.apache.httpcomponents:httpmime:4.5.14")
-    implementation("com.fasterxml.jackson.core:jackson-databind:2.22.4")
+    implementation("com.fasterxml.jackson.core:jackson-databind:2.21.8")
     implementation("commons-codec:commons-codec:1.23.0")
     implementation("commons-io:commons-io:2.22.0")
 
